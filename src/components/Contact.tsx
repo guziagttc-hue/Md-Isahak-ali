@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Facebook, Linkedin, Twitter } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Linkedin, Twitter, Youtube } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -63,6 +63,7 @@ const Contact = () => {
                     <a href="#" className="p-3 bg-blue-600 text-white rounded-full"><Facebook /></a>
                     <a href="#" className="p-3 bg-blue-500 text-white rounded-full"><Linkedin /></a>
                     <a href="#" className="p-3 bg-sky-400 text-white rounded-full"><Twitter /></a>
+                    <a href="#" className="p-3 bg-red-600 text-white rounded-full"><Youtube /></a>
                 </div>
             </div>
           </div>

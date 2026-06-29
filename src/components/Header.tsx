@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Search } from 'lucide-react';
+import { Menu, X, Search, Youtube, Facebook, MessageCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -26,7 +26,9 @@ const Header = () => {
       </div>
       <div className="py-2 px-6 border-b flex justify-between items-center">
         <div className="flex gap-4">
-          {[1,2,3,4,5].map(i => <div key={i} className="w-8 h-8 bg-gray-200 rounded-full"></div>)}
+          <a href="#" className="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full hover:bg-gray-200"><Youtube size={18} className="text-red-600" /></a>
+          <a href="#" className="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full hover:bg-gray-200"><Facebook size={18} className="text-blue-600" /></a>
+          <a href="#" className="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full hover:bg-gray-200"><MessageCircle size={18} className="text-green-600" /></a>
         </div>
         <div className="flex items-center border border-gray-300 rounded overflow-hidden">
           <input type="text" placeholder="Search..." className="p-1 px-2 text-sm w-48" />

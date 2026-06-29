@@ -2,11 +2,7 @@ import React from 'react';
 import { Mic, Users, Calendar } from 'lucide-react';
 
 const Services = () => {
-  const services = [
-    { icon: Mic, title: 'Keynote' },
-    { icon: Users, title: 'Workshops' },
-    { icon: Calendar, title: 'Events' },
-  ];
+  const services = [];
   return (
     <section id="services" className="py-20 px-6 -skew-y-2 bg-gray-50">
       <div className="skew-y-2">

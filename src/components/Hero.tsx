@@ -19,15 +19,15 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 max-w-2xl text-center md:text-left flex-grow flex flex-col justify-center">
-        <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tighter">স্বাগতম! আমি মো: এসা আলী।</h1>
-        <h2 className="text-3xl md:text-5xl text-gray-300 mb-8 font-medium">প্রতিশ্রুতিশীল বক্তা ও চিন্তাবিদ</h2>
-        <p className="text-xl md:text-2xl mb-10 text-gray-200">ইসলামি মূল্যবোধ এবং আধুনিক চিন্তাধারার সমন্বয়ে জনসচেতনতা বৃদ্ধিতে কাজ করে যাচ্ছি। প্রতিটি বক্তব্য এক একটি অভিজ্ঞতা।</p>
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tighter">স্বাগতম! আমি মো: এসা আলী।</h1>
+        <h2 className="text-2xl md:text-3xl text-gray-300 mb-8 font-medium">প্রতিশ্রুতিশীল বক্তা ও চিন্তাবিদ</h2>
+        <p className="text-lg md:text-xl mb-10 text-gray-200">ইসলামি মূল্যবোধ এবং আধুনিক চিন্তাধারার সমন্বয়ে জনসচেতনতা বৃদ্ধিতে কাজ করে যাচ্ছি। প্রতিটি বক্তব্য এক একটি অভিজ্ঞতা।</p>
         <div className="flex gap-4 justify-center md:justify-start">
-          <button className="bg-white text-gray-950 px-8 py-3 rounded-sm font-semibold text-lg hover:bg-gray-200 transition">বুক করুন এখন</button>
-          <button className="border-2 border-white text-white px-8 py-3 rounded-sm font-semibold text-lg hover:bg-white/10 transition">বিস্তারিত জানুন</button>
+          <button className="bg-white text-gray-950 px-6 py-2 rounded-sm font-semibold text-base hover:bg-gray-200 transition">বুক করুন এখন</button>
+          <button className="border-2 border-white text-white px-6 py-2 rounded-sm font-semibold text-base hover:bg-white/10 transition">বিস্তারিত জানুন</button>
         </div>
       </div>
-      <div className="hidden md:block relative z-10 w-1/3 h-[400px] bg-gray-700/30 rounded-sm border border-white/20 backdrop-blur-sm mt-10"></div>
+      <div className="hidden md:block relative z-10 w-72 h-72 bg-gray-700/30 rounded-full border border-white/20 backdrop-blur-sm mt-10"></div>
     </section>
   );
 };
